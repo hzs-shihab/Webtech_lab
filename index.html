@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body>
+    <h3>Job Application Form</h3>
+     <form action="action.php"></form>
+    <fieldset>
+        <legend>Personal Information</legend> <br><br>
+        <p>
+        <label for="fname">1.Full Name</label>
+        <input type="text" name="fname" > <br> <br>
+
+        <label for="nid">2.National Id</label>
+        <input type="number" name="nid" > <br> <br>
+
+        <label for="email">3.Email Address</label>
+        <input type="email" name="email" > <br> <br>
+
+        <label for="number">4.Phone Number </label>
+        <input type="number" name="number" > <br> <br>
+
+        <label for="dob">5.Date od Birth</label>
+        <input type="date" name="dob" > <br> <br>
+
+        <label for="gender">6.Phone Number </label>
+        <input type="text" name="gender" > <br> <br>
+       </p>
+
+    </fieldset>
+    <fieldset> 
+ <legend>Job Information</legend>
+            
+            <p>
+                <label for="position">Position Applied For:</label>
+                <select id="position" name="position" required> 
+                <option value="software_developer" selected>Software Developer</option>                  		<option value="web_designer">Web Designer</option> 
+                <option value="network_engineer">Network Engineer</option>
+                <option value="database_administrator">Database Administrator</option> 
+                 <option value="it_support">IT Support Officer</option>
+                </select>
+            </p>
+
+    </fieldset>
+     
+    <p>
+                <label for="experience">Experience Level:</label> 
+                <select id="experience" name="experience_level" required>                     
+                    <option value="" disabled selected>Select your experience</option> 
+                    <option value="fresher">Fresher</option>
+                    <option value="1-2_years">1-2 Years</option>
+                    <option value="3-5_years">3-5 Years</option> 
+                    <option value="5_plus">More Than 5 Years</option>
+                </select>
+            </p>
+        </fieldset>
+           
+
+</body>
+</html>
